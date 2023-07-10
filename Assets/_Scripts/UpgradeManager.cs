@@ -235,7 +235,7 @@ public class UpgradeManager : MonoBehaviour
             }
             case Upgrades.RogueQuickDraw: {
                 print("Rogue quick draw");
-                PlayerShooting.Instance.QuickDraw(25, 25);
+                PlayerShooting.Instance.QuickDraw(20, 20);
                 break;
             }
             case Upgrades.ArtificerIncreaseBombSpread: {
@@ -275,12 +275,12 @@ public class UpgradeManager : MonoBehaviour
             }
             case Upgrades.RangerMorePiercingChance: {
                 print("Ranger more piercing chance");
-                PlayerShooting.Instance.PiercingBulletChanceIncrease(30);
+                PlayerShooting.Instance.PiercingBulletChanceIncrease(40);
                 break;
             }
             case Upgrades.ArtificerBombDash: {
                 print("Artificer bomb dash");
-                DashAbility.Instance.bombDash += 3;
+                DashAbility.Instance.bombDash += 2;
                 break;
             }
         }

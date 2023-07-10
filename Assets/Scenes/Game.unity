@@ -306,7 +306,7 @@ MonoBehaviour:
   m_ActionEvents: []
   m_NeverAutoSwitchControlSchemes: 1
   m_DefaultControlScheme: Default
-  m_DefaultActionMap: Player
+  m_DefaultActionMap: 
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
 --- !u!61 &21466119
@@ -7970,7 +7970,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startingSpawnRate: 0.8
-  spawnRateIncrement: 0.1
+  spawnRateIncrement: 0.25
   enemySpeed: 18
   enemyHealthAddon: 0
   enemySpeedIncrement: 0.1
@@ -14379,7 +14379,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startingUpgradeXP: 4
-  upgradeXPIncrement: 2
+  upgradeXPIncrement: 4
   xpStartForceMin: 0
   xpStartForceMax: 20
   xpPrefab: {fileID: 4214348150177475379, guid: f36194f4aa938a64d937304dac7cd755, type: 3}
