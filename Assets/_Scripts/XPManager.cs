@@ -10,7 +10,7 @@ public class XPManager : MonoBehaviour
     [SerializeField] private int startingUpgradeXP = 10;
 
     [Tooltip("How much more XP do you have to collect every upgrade")]
-    [SerializeField] private int upgradeXPIncrement = 10;
+    [SerializeField] private int upgradeXPIncrement = 5;
 
     [Tooltip("How much force the XP has at the start to seperate it")]
     [SerializeField] private float xpStartForceMin = 5;
